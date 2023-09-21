@@ -1,0 +1,13 @@
+{
+  "name": "vue-directive",
+  "version": "0.0.0",
+  "description": "A set of vue directive",
+  "scripts": {},
+  "keywords": [
+    "vue",
+    "utils",
+    "pnpm"
+  ],
+  "author": "Hilary liu",
+  "license": "MIT"
+}
