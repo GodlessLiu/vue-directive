@@ -2,7 +2,10 @@
   "name": "vue-directive",
   "version": "0.0.0",
   "description": "A set of vue directive",
-  "scripts": {},
+  "scripts": {
+    "example": "cd packages/example && pnpm dev",
+    "build": "cd packages/core && pnpm build -w"
+  },
   "keywords": [
     "vue",
     "utils",

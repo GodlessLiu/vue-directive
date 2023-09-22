@@ -18,6 +18,11 @@ export default defineConfig({
   define: {
     "process.env": process.env,
   },
+  css: {
+    preprocessorOptions: {
+      scss: {},
+    },
+  },
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
